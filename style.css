@@ -1,0 +1,163 @@
+
+body {
+    margin: 0;
+    background-color: #f7f6fc;
+    font-family: Arial, sans-serif;
+}
+
+
+.logo {
+    color: #5037ff;
+    font-weight: bold;
+}
+
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+.hero {
+    background-color: #eeebff;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+
+.stitle {
+    color: #5037ff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.hero h1 span {
+    color: #5037ff;
+    font-style: italic;
+}
+
+.description {
+    font-size: 20px;
+    color: #526078;
+    margin-top: 25px;
+}
+.stat-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.stat-card h2 {
+    color: #5037ff;
+    font-size: 50px;
+    font-family: Georgia, serif;
+}
+
+.stat-card p {
+    color: #71809a;
+}
+.catalogue {
+    padding-top: 60px !important;
+}
+
+.catalogue h2 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.form-control,
+.form-select {
+    padding: 15px;
+    border-radius: 12px;
+}
+.btn-primary {
+    background-color: #5037ff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+}
+
+.btn-dark {
+    border-radius: 12px;
+    padding: 12px 20px;
+}
+
+.ideas {
+    background-color: white;
+    padding: 100px 20px;
+    border: 1px dashed #c8c0ff;
+    display: flex;
+    gap: 20px;
+}
+
+.ideas h2 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.ideas p {
+    color: #71809a;
+    margin: 20px;
+}
+.modal-content {
+    border-radius: 20px;
+    border: none;
+}
+
+.modal-header h2 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+}
+.container {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.container h2 {
+    margin-bottom: 25px;
+}
+
+.activities {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+    color: #6c4bb5;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .stat-card {
+        margin-top: 25px;
+    }
+
+}
+
